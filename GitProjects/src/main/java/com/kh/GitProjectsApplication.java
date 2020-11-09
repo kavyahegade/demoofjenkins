@@ -14,6 +14,10 @@ public class GitProjectsApplication {
 	public String getdata() {
 		return "get some data";
 	}
+	
+	
+	public String bye() {
+		return "bye";
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitProjectsApplication.class, args);
